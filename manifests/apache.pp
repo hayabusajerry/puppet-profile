@@ -9,7 +9,7 @@ class profile::apache(
   }
   
   create_resources(::apache::vhost, $apache_vhost_servers)
-  #::apache::vhost { 'tthomsen2.mylabserver.com':
+  #::apache::vhost { 'jerrycarter2.mylabserver.com':
   #  port    => $port,
   #  docroot => $docroot,
   #}
